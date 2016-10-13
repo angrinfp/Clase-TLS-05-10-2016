@@ -100,15 +100,17 @@ h1 {
 #s-info {
 	padding-left: 50px;
 	box-sizing: border-box;
+	color: #666;
 }
 
 h2 {
 	margin: 20px 0;
 	font-weight: bold;
 	font-size: 36px;
+	color: #000;
 }
 
-#line {
+.line {
 	content: '';
 	width: 50px;
 	padding: 1px;
@@ -124,10 +126,40 @@ h2 {
 
 .each-sign {
 	float: left;
+	opacity: 0.5;
 }
 
 .each-info {
 	margin-left: 100px;
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#welcome {
+	background: url(../images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 100px 0;
+	color: #fff;
+}
+
+#welcome h2 {
+	color: #fff;
+}
+
+#welcome .line {
+	background: #fff;
+}
+
+video {
+	width: 100%;
 }
 
 
